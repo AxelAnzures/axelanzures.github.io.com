@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SEMBLANZA</title>
+    <meta content="HTML Templates" name="keywords">
+    <meta content="HTML Templates" name="description">
+    <meta name="viewport" content="width=1300 user-scalable=no">
+
+    <!-- Favicon -->
+    <link href="images/Imagen1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="title display-5"><span>BIENVENIDO A MI SITIO</span> <span
+                        style="color: #e35800;">WEB ING.</span> <span>AXEL ANZURES</span>
+                </h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="index.html#información" class="nav-item nav-link">Información</a>
+                    <a href="index.html#servicios" class="nav-item nav-link">Experiencia</a>
+                    <a href="index.html#obras" class="nav-item nav-link">Curriculum</a>  
+                    <a href="semblanza.html" class="nav-item nav-link active">Semblanza</a>  
+                    <a href="contacto.html" class="nav-item nav-link">Contacto</a>               
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+      
+    <div class="container-fluid semblanza">                             
+        <div class="container mb-6 mt4-g">             
+            <div class="row">
+                <div class="col-lg-6 pr-5"> 
+                    <p class="mb-8 ts-normal font-weight-bold">Ing. Anzures Cervantes Axel Roman.</p>
+                    <p class="mb-9 ts-normal">En tramite mi titulo.</p>
+                    <p class="mb-10 text-normal font-weight-bold">Ingeniero en computación - Egresado de la facultad de ingeniería de la UAEM Plantel Ecatepec, en el año de 2023.</p>
+                    <p class="mb-11 text-normal" style="text-align: justify;">A lo largo de mi formación y experiencia laboral, he participado en proyectos y actividades centradas en soporte técnico, desarrollo web, administración de bases de datos y liderazgo operativo, destacando en los siguientes ámbitos:
+
+Soporte Técnico Multinivel (Niveles 1, 2 y ocasionalmente 3):
+En Oceanitec, brindé soporte remoto a más de 50 empresas bajo esquemas de pólizas tecnológicas. Atendí y di seguimiento a tickets relacionados con automatización de respaldos, correos electrónicos y otros servicios tecnológicos. También gestioné migraciones de correos electrónicos con dominios personalizados y resolución de tickets mediante herramientas como el tenant.<br>
+                        Desarrollo Web y Tecnologías Frontend/Backend:
+Desarrollo de páginas web utilizando HTML, CSS, PHP y el framework Bootstrap, creando soluciones visuales y funcionales para distintas necesidades. Implementación de diseños web personalizados orientados a la experiencia del usuario.
+
+Administración y Consulta de Bases de Datos en SQL Server:
+Participación en tareas de mantenimiento y soporte en Reparación de Equipos de Cómputo López, enfocándome en la gestión y consulta de bases de datos SQL Server para detectar fallos en red y asegurar la funcionalidad de los sistemas.
+                        <br>Programación y Desarrollo de Software:
+Uso de lenguajes como Java, C# (modelo vista-controlador) para desarrollar soluciones orientadas a la mejora de procesos internos de las empresas.
+
+Liderazgo y Gestión Operativa en Entornos Financieros:
+Como Cajero Líder en Banco Azteca, tuve a cargo funciones de supervisión de personal, manejo de valores, identificación de divisas, enfajillamiento y entrega de efectivo, así como cumplimiento de metas comerciales y capacitación continua.
+                        <br>Control de Inventarios y Finanzas:
+En Servicios Gastronómicos Gigante, me desempeñé como líder de cobranza, con responsabilidad en arqueos, control de inventarios mediante Excel y SQL, y manejo de valores.</p>
+                </div>
+                <div class="col-lg-6 align-items-center">
+                    <img class="image5" src="images/Yo.jpg" alt="">                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".nav-link");
+      
+            navLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+            navLinks.forEach((item) => item.classList.remove("active"));
+            this.classList.add("active");});
+            });
+        });
+      </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>
